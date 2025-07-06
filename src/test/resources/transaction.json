@@ -1,0 +1,28 @@
+{
+  "transactionId": "TXN123456789",
+  "date": "2025-06-18T14:35:22Z",
+  "amount": 1500.75,
+  "currency": "RUB",
+  "sender": {
+    "accountNumber": "40817810000012345678",
+    "name": "Иван Иванов"
+  },
+  "recipient": {
+    "accountNumber": "40817810000087654321",
+    "name": "ООО Ромашка"
+  },
+  "description": "Оплата за услуги",
+  "status": "COMPLETED",
+  "operations": [
+    {
+      "type": "commission",
+      "amount": 50.00,
+      "currency": "RUB"
+    },
+    {
+      "type": "transfer",
+      "amount": 1450.75,
+      "currency": "RUB"
+    }
+  ]
+}
